@@ -1,0 +1,73 @@
+body {
+  padding: 40px;
+  font-family: "helvetica neue", sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+.container h1 {
+  margin: 0;
+  padding: 20px;
+  font-size: 48px;
+}
+.container .btn {
+  border: 0;
+  padding: 15px;
+  margin: 10px;
+  width: 20%;
+  font-size: 15px;
+  outline: none;
+  border-radius: 3px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.btn.btn-blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.btn.btn-blue:hover {
+   background-color: #6FC6FF;
+}
+
+.btn.btn-blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.btn.btn-blue:hover {
+   background-color: #6FC6FF;
+}
+
+.btn.btn-green {
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358;
+}
+
+.btn.btn-green:hover {
+  background-color: #48E68B;
+}
+
+.btn.btn-purple {
+  background-color: #9b59b6;
+  box-shadow: 0px 5px 0px 0px #82409D;
+}
+
+.btn.btn-purple:hover {
+  background-color: #B573D0;
+}
+
+.btn.btn-red {
+  background-color: #d84a4a;
+  box-shadow: 0px 5px 0px 0px #a73333;
+}
+
+.btn.btn-red:hover {
+  background-color: #f15656;
+}
