@@ -26,11 +26,11 @@ function counterReducer(state={ count: 0 }, action) {
 }
 
 // STORE
-var store = createStore(counterReducer);
-var counterEl = document.getElementById('counter');
+const store = createStore(counterReducer);
+const counterEl = document.getElementById('counter');
 
 function render() {
-  var state = store.getState()
+  const state = store.getState()
   counterEl.innerHTML = state.count.toString()
 }
 
@@ -39,16 +39,16 @@ store.subscribe(render)
 
 // ACTIONS
 document.getElementById('add')
-  .addEventListener('click', function() {
+  .addEventListener('click', () => {
     store.dispatch({ type: 'ADD' })
   })
 
 document.getElementById('minus')
-  .addEventListener('click', function() {
+  .addEventListener('click', () => {
     store.dispatch({ type: 'MINUS' })
   })
 
 document.getElementById('reset')
-  .addEventListener('click', function() {
+  .addEventListener('click', () => {
     store.dispatch({ type: 'RESET' })
   })
