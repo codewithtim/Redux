@@ -9,10 +9,6 @@ module.exports = {
     loaders: [{
       exclude: /node_modules/,
       loader: 'babel'
-    }],
-    eslint: {
-      configFile: './src/.eslintrc',
-      emitWarning: true
-    }
+    }]
   }
 };
