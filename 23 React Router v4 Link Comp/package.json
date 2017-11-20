@@ -1,0 +1,19 @@
+{
+  "name": "code-with-tim-23-react-router-v4",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "^1.0.17"
+  },
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-router-dom": "^4.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
